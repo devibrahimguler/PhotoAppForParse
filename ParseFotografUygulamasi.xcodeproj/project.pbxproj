@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE93843B80CB3F9F9B020BF1 /* Pods_ParseFotografUygulamasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4044F01A809493F74789C /* Pods_ParseFotografUygulamasi.framework */; };
 		D2EF60EA26AD578E00EAA62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF60E926AD578E00EAA62F /* AppDelegate.swift */; };
 		D2EF60EC26AD578E00EAA62F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF60EB26AD578E00EAA62F /* SceneDelegate.swift */; };
 		D2EF60EE26AD578E00EAA62F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF60ED26AD578E00EAA62F /* ViewController.swift */; };
 		D2EF60F126AD578E00EAA62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EF60EF26AD578E00EAA62F /* Main.storyboard */; };
 		D2EF60F326AD578F00EAA62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EF60F226AD578F00EAA62F /* Assets.xcassets */; };
 		D2EF60F626AD578F00EAA62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EF60F426AD578F00EAA62F /* LaunchScreen.storyboard */; };
+		D2EF60FF26AD648000EAA62F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF60FE26AD648000EAA62F /* FeedViewController.swift */; };
+		D2EF610126AD649300EAA62F /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF610026AD649300EAA62F /* UploadViewController.swift */; };
+		D2EF610326AD64A300EAA62F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF610226AD64A300EAA62F /* SettingsViewController.swift */; };
+		D2EF610526AD691500EAA62F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF610426AD691500EAA62F /* FeedCell.swift */; };
+		D2EF610826AD7CFD00EAA62F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF610726AD7CFD00EAA62F /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214D062AF6EB8FC818DAD0B3 /* Pods-ParseFotografUygulamasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFotografUygulamasi.debug.xcconfig"; path = "Target Support Files/Pods-ParseFotografUygulamasi/Pods-ParseFotografUygulamasi.debug.xcconfig"; sourceTree = "<group>"; };
 		D2EF60E626AD578E00EAA62F /* ParseFotografUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseFotografUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EF60E926AD578E00EAA62F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2EF60EB26AD578E00EAA62F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		D2EF60F226AD578F00EAA62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2EF60F526AD578F00EAA62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2EF60F726AD578F00EAA62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EF60FE26AD648000EAA62F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D2EF610026AD649300EAA62F /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		D2EF610226AD64A300EAA62F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D2EF610426AD691500EAA62F /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		D2EF610726AD7CFD00EAA62F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FAE4044F01A809493F74789C /* Pods_ParseFotografUygulamasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseFotografUygulamasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE5C066E6DE9E616A80760B /* Pods-ParseFotografUygulamasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFotografUygulamasi.release.xcconfig"; path = "Target Support Files/Pods-ParseFotografUygulamasi/Pods-ParseFotografUygulamasi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE93843B80CB3F9F9B020BF1 /* Pods_ParseFotografUygulamasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32D8C43444FF120FD1239BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				214D062AF6EB8FC818DAD0B3 /* Pods-ParseFotografUygulamasi.debug.xcconfig */,
+				FFE5C066E6DE9E616A80760B /* Pods-ParseFotografUygulamasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83F1BFC47E5A7E3F15E50618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4044F01A809493F74789C /* Pods_ParseFotografUygulamasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2EF60DD26AD578E00EAA62F = {
 			isa = PBXGroup;
 			children = (
 				D2EF60E826AD578E00EAA62F /* ParseFotografUygulamasi */,
 				D2EF60E726AD578E00EAA62F /* Products */,
+				32D8C43444FF120FD1239BFB /* Pods */,
+				83F1BFC47E5A7E3F15E50618 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,36 @@
 		D2EF60E826AD578E00EAA62F /* ParseFotografUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
-				D2EF60E926AD578E00EAA62F /* AppDelegate.swift */,
-				D2EF60EB26AD578E00EAA62F /* SceneDelegate.swift */,
-				D2EF60ED26AD578E00EAA62F /* ViewController.swift */,
+				D2EF610626AD7CEF00EAA62F /* Model */,
+				D2EF60FD26AD643900EAA62F /* View */,
 				D2EF60EF26AD578E00EAA62F /* Main.storyboard */,
 				D2EF60F226AD578F00EAA62F /* Assets.xcassets */,
 				D2EF60F426AD578F00EAA62F /* LaunchScreen.storyboard */,
 				D2EF60F726AD578F00EAA62F /* Info.plist */,
 			);
 			path = ParseFotografUygulamasi;
+			sourceTree = "<group>";
+		};
+		D2EF60FD26AD643900EAA62F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2EF60E926AD578E00EAA62F /* AppDelegate.swift */,
+				D2EF60EB26AD578E00EAA62F /* SceneDelegate.swift */,
+				D2EF60ED26AD578E00EAA62F /* ViewController.swift */,
+				D2EF60FE26AD648000EAA62F /* FeedViewController.swift */,
+				D2EF610026AD649300EAA62F /* UploadViewController.swift */,
+				D2EF610226AD64A300EAA62F /* SettingsViewController.swift */,
+				D2EF610426AD691500EAA62F /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2EF610626AD7CEF00EAA62F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2EF610726AD7CFD00EAA62F /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2EF60FA26AD578F00EAA62F /* Build configuration list for PBXNativeTarget "ParseFotografUygulamasi" */;
 			buildPhases = (
+				C66E17A75F8939EF830B5D2C /* [CP] Check Pods Manifest.lock */,
 				D2EF60E226AD578E00EAA62F /* Sources */,
 				D2EF60E326AD578E00EAA62F /* Frameworks */,
 				D2EF60E426AD578E00EAA62F /* Resources */,
+				B6B90F0B38B6F1BF22CA5533 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +189,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6B90F0B38B6F1BF22CA5533 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseFotografUygulamasi/Pods-ParseFotografUygulamasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseFotografUygulamasi/Pods-ParseFotografUygulamasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParseFotografUygulamasi/Pods-ParseFotografUygulamasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66E17A75F8939EF830B5D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseFotografUygulamasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2EF60E226AD578E00EAA62F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EF610526AD691500EAA62F /* FeedCell.swift in Sources */,
 				D2EF60EE26AD578E00EAA62F /* ViewController.swift in Sources */,
+				D2EF610126AD649300EAA62F /* UploadViewController.swift in Sources */,
+				D2EF610826AD7CFD00EAA62F /* Post.swift in Sources */,
 				D2EF60EA26AD578E00EAA62F /* AppDelegate.swift in Sources */,
+				D2EF60FF26AD648000EAA62F /* FeedViewController.swift in Sources */,
 				D2EF60EC26AD578E00EAA62F /* SceneDelegate.swift in Sources */,
+				D2EF610326AD64A300EAA62F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +387,14 @@
 		};
 		D2EF60FB26AD578F00EAA62F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214D062AF6EB8FC818DAD0B3 /* Pods-ParseFotografUygulamasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6YXW4WBS6;
 				INFOPLIST_FILE = ParseFotografUygulamasi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +408,14 @@
 		};
 		D2EF60FC26AD578F00EAA62F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE5C066E6DE9E616A80760B /* Pods-ParseFotografUygulamasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6YXW4WBS6;
 				INFOPLIST_FILE = ParseFotografUygulamasi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+framework module Pods_ParseFotografUygulamasi {
+  umbrella header "Pods-ParseFotografUygulamasi-umbrella.h"
+
+  export *
+  module * { export * }
+}
